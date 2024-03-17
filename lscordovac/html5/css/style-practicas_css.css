@@ -1,0 +1,35 @@
+/* Este es un comentario en CSS */
+
+/*
+Reglas para trabajar con css
+
+1) Se definen estilos para etiquetas html, Ej: header, footer, div, a, p, etc.
+2) Se definen estilos para los IDENTIFICACORES (id), Ej: los id's son los elementos unicios en el html, <div id="nuestro_id"></div>, ocupar #nuesto_id ( estilos ).
+3) Se definen estilos para las CLASES (class), los clases son elementos que se pueden repetir °n veces en el html, Ej: <p class="nuesta_clase"></p>, ocupar .nuesta_clase ( estilos ).
+4) Todos los estilos se ordenan en conforme como se disponen en el html.
+5) Los atributos se declaran: { atributo1: valor1; ...}.
+6) Todo los atributos se ordenan alfabeticamente, width, color, display: entonces el orden, color, display, width.
+7) Consideracion: Si tenemos estilos para html y/o body, estos estilos definirlos primero antes que todo.
+8) En el body debemos declarar un tamaño de fuente global.
+9) Si tenemos estilos para resetear elementos en html, estos iran antes de cualquier estilo.
+*/
+
+* {
+    /* Alinear a la izquierda superior, modelo de caja */
+    margin: 0;
+    padding: 0;
+}
+
+html {}
+
+body {
+    /* Cambiar color y si no mostrar imagen */
+    /* background: #212121 url(../img/logomulticode.jpg); */
+
+    /* Color de fondo de la pagina y imagen */
+    background-color: #212121;
+    /* Tamaño de la letra */
+    font-size: 16px;
+    /* Color de la letra */
+    color: #FFF;
+}
